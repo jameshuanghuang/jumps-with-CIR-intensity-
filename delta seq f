@@ -1,0 +1,11 @@
+analyze conditional arrival time (of its density) through delta sequence in order to apply inverse mentod:
+Given F(s) in Zhao's paper, f(s) is:
+2**(2*alpha*delt/sigma**2)*(sqrt(delt**2 + 2*sigma**2)*
+exp(s*(delt + sqrt(delt**2 + 2*sigma**2))/2)/(delt*exp(s*sqrt(delt**2 + 2*sigma**2))-
+delt + sqrt(delt**2 + 2*sigma**2)*exp(s*sqrt(delt**2 + 2*sigma**2)) + 
+sqrt(delt**2 + 2*sigma**2)))**(2*alpha*delt/sigma**2)*(alpha*delt**3*exp(2*s*sqrt(delt**2 + 2*sigma**2)) - 
+alpha*delt**3 + alpha*delt**2*sqrt(delt**2 + 2*sigma**2)*exp(2*s*sqrt(delt**2 + 2*sigma**2)) 
+- 2*alpha*delt**2*sqrt(delt**2 + 2*sigma**2)*exp(s*sqrt(delt**2 + 2*sigma**2))
++ alpha*delt**2*sqrt(delt**2 + 2*sigma**2) + 2*alpha*delt*sigma**2*exp(2*s*sqrt(delt**2 + 2*sigma**2))
+- 2*alpha*delt*sigma**2 + 2*delt**2*lam*sqrt(delt**2 + 2*sigma**2)*exp(s*sqrt(delt**2 + 2*sigma**2)) 
++ 4*lam*sigma**2*sqrt(delt**2 + 2*sigma**2)*exp(s*sqrt(delt**2 + 2*sigma**2)))*exp(2*lam*(1 - exp(s*sqrt(delt**2 + 2*sigma**2)))/(delt*exp(s*sqrt(delt**2 + 2*sigma**2)) - delt + sqrt(delt**2 + 2*sigma**2)*exp(s*sqrt(delt**2 + 2*sigma**2)) + sqrt(delt**2 + 2*sigma**2)))/(delt**3*exp(2*s*sqrt(delt**2 + 2*sigma**2)) - delt**3 + delt**2*sqrt(delt**2 + 2*sigma**2)*exp(2*s*sqrt(delt**2 + 2*sigma**2)) + delt**2*sqrt(delt**2 + 2*sigma**2) + 2*delt*sigma**2*exp(2*s*sqrt(delt**2 + 2*sigma**2)) - 2*delt*sigma**2 + sigma**2*sqrt(delt**2 + 2*sigma**2)*exp(2*s*sqrt(delt**2 + 2*sigma**2)) + 2*sigma**2*sqrt(delt**2 + 2*sigma**2)*exp(s*sqrt(delt**2 + 2*sigma**2)) + sigma**2*sqrt(delt**2 + 2*sigma**2))
